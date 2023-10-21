@@ -57,4 +57,4 @@
 
 #let varEntrySocietyFirst = false // Decide if you want to put your company in bold or your position in bold
 
-#let varDisplayLogo = false // Decide if you want to display organisation logo or not
+#let varDisplayLogo = true // Decide if you want to display organisation logo or not

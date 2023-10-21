@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Marc Desgroseilliers",
+    "label": "Senior Machine Learning Engineer",
+    "image": "home/mdgrs/resume/profile_pic.jpeg",
+    "email": "m.dgrs@pm.me",
+    "phone": "+41788961201",
+    "summary": "Data scientist with a strong background in statistics and numerical computing. Keen to apply new machine learning methods to real world problems.",
+    "location": {
+      "address": "Chemin du Mottey 35",
+      "postalCode": "1020",
+      "city": "Renens",
+      "countryCode": "Switzerland",
+      "region": "Vaud"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "marc-desgroseilliers",
+        "url": "http://www.linkedin.com/in/marc-desgroseilliers"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Inpher",
+      "location": "Lausanne",
+      "description": "Secret Computing company",
+      "position": "Senior Machine Learning Engineer II",
+      "url": "http://www.inpher.io",
+      "startDate": "2020-01-20",
+      "summary": "Develop and implement algorithms in the setting of the multiparty computations.",
+      "highlights": [
+        "Design and adapt machine learning algorithms for cryptographical frameworks",
+        "Analyze and validate numerical precision of privacy preserving algorithms"
+      ]
+    },
+    {
+      "name": "UPC",
+      "location": "Zurich",
+      "description": "Internet & Telecommunication",
+      "position": "Data Scientist -- Network Infrastructure",
+      "url": "http://www.upc.ch",
+      "startDate": "2018-06-01",
+      "endDate": "2019-12-31",
+      "summary": "Use data collected by end users' modems to improve network availability and health.",
+      "highlights": [
+        "Fault detection in the internet distribution network (hybrid fiber coaxial)",
+        "Manage and promote the CPD detection project, from exploratory data analysis to machine learning algorithm selection to deployment",
+        "Generate visualizations and reports to help business partners and engineers better understand network status"
+      ]
+    },
+    {
+      "name": "Pix4D",
+      "location": "Lausanne",
+      "description": "Photogrammetry software",
+      "position": "Technical Support",
+      "url": "http://www.pix4d.com",
+      "startDate": "2015-09-01",
+      "endDate": "2018-03-01",
+      "summary": "Promote the use of photogrammetry software",
+      "highlights": [
+        "Created a training program: workshops, educational videos, online material",
+        "Troubleshoot user issues, specialization in precision agriculture and multispectral imagery",
+        "Managed the elaboration of an online certification program",
+        "Liaised between technical and non technical team member"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ecole Polytechnique Federale de Lausanne EPFL",
+      "area": "Information Theory and Probability",
+      "studyType": "PhD",
+      "startDate": "2010-09-01",
+      "endDate": "2015-08-01"
+    },
+    {
+      "institution": "University Paris-Sud XI",
+      "area": "Mathematics",
+      "studyType": "Erasmus Mundus Masters: Algebra, Geometry and Number Theory",
+      "startDate": "2008-09-01",
+      "endDate": "2010-08-01"
+    },
+    {
+      "institution": "McGill University",
+      "area": "Mathematics",
+      "studyType": "Honours Bachelor",
+      "startDate": "2005-09-01",
+      "endDate": "2008-08-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "XORBoost: Tree Boosting in the Multiparty Computation Setting",
+      "releaseDate": "2022"
+    },
+    {
+      "name": "Reducing Randomness in Matrix Models for Wireless Communication",
+      "releaseDate": "2015-08-15"
+    },
+    {
+      "name": "Partially random matrices in line-of-sight wireless networks",
+      "releaseDate": "2013"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python Development"
+    },
+    {
+      "name": "Scala Development"
+    },
+    {
+      "name": "Data Science"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Italian",
+      "fluency": "C1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Mountaineering",
+      "keywords": [
+        "Climbing",
+        "Ski Touring",
+        "Alpinism"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "XorBoost",
+      "description": "Xgboost in the multiparty computation setting",
+      "highlights": [
+        "First implementation of a fully privacy preserving MPC version of tree learning",
+        "Able to handle datasets with hundreds of features and millions of rows",
+        "Awarded a patent"
+      ],
+      "roles": [
+        "Project lead",
+        "Algorithm design and implementation"
+      ]
+    },
+    {
+      "name": "DataFrames",
+      "description": "Framework to write algorithms chaining local and multiparty computations",
+      "highlights": [
+        "Implementation of Join and Groupby in a privacy preserving setting",
+        "Design of an API to give users flexibility to port their data science workflow while hiding the complexity inherent with MPC computations"
+      ],
+      "roles": [
+        "Contributor",
+        "Algorithm design and implementation"
+      ]
+    }
+  ],
+  "meta": {
+    "theme": "latte",
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

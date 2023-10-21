@@ -7,6 +7,7 @@
   keyList: (
     "xorboost",
     "md",
+    "mimo"
     ),
   refStyle: "apa"  
 )

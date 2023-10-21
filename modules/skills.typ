@@ -9,7 +9,7 @@
 
 #cvSkill(
   type: [Tech Stack],
-  info: [Scala #hBar() Python #hBar() PyData]
+  info: [Scala #hBar() Python #hBar() Python Data #hBar() R #hBar() SQL]
 )
 
 #cvSkill(
