@@ -3,38 +3,46 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-    title: [Director of Data Science],
-    society: [XYZ Corporation],
+    title: [Senior Machine Learning Engineer],
+    society: [Inpher],
     logo: "../src/logos/xyz_corp.png",
     date: [2020 - Present],
-    location: [San Francisco, CA],
+    location: [Lausanne, Switzerland],
     description: list(
-      [Lead a team of data scientists and analysts to develop and implement data-driven strategies, develop predictive models and algorithms to support decision-making across the organization],
-      [Collaborate with executive leadership to identify business opportunities and drive growth, implement best practices for data governance, quality, and security],
+	  [Design and adapt machine learning algorithms for cryptographical frameworks],
+      [Project lead for privacy preserving xgboost implementation],
+	  [Analyze and validate numerical precision of multiple parties algorithms],
+      [Design and implement a user facing system for private dataframes]
     ),
-    tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL")
+    tags: ("Tree-based learning", "Recommender systems", "Data Independent Algorithms", "Cryptography")
 )
 
 #cvEntry(
-    title: [Data Analyst],
-    society: [ABC Company],
+    title: [Data Scientist],
+    society: [UPC],
     logo: "../src/logos/abc_company.png",
-    date: [2017 - 2020],
-    location: [New York, NY],
+    date: [2018 - 2020],
+    location: [Zurich, Switzerland],
     description: list(
-      [Analyze large datasets using SQL and Python, collaborate with cross-functional teams to identify business insights],
-      [Create data visualizations and dashboards using Tableau, develop and maintain data pipelines using AWS],
-    )
+	  [Fault detection in the internet distribution network (hybrid fiber coaxial)],
+	  [Manage and promote the CPD detection project, from exploratory data analysis to machine learning algorithm selection to deployment],
+      [Increase positive hit rate from 10% to above 85%],
+	  [Generate visualizations and reports to help business partners and engineers better understand network status],
+    ),
+    tags: ("Time series", "Feature engineering")
 )
 
 #cvEntry(
-    title: [Data Analysis Intern],
-    society: [PQR Corporation],
+    title: [Technical Support],
+    society: [Pix4D],
     logo: "../src/logos/pqr_corp.png",
-    date: [Summer 2017],
-    location: [Chicago, IL],
+    date: [2015-2018],
+    location: [Lausanne, Switzerland],
     description: list(
-      [Assisted with data cleaning, processing, and analysis using Python and Excel, participated in team meetings and contributed to project planning and execution],
-      [Developed data visualizations and reports to communicate insights to stakeholders, collaborated with other interns and team members to complete projects on time and with high quality],
-    )
+	  [Created a training program: workshops, educational videos, online material],
+	  [Troubleshoot user issues, specialization in precision agriculture and multispectral imagery],
+	  [Managed the elaboration of an online certification program],
+	  [Liaised between technical and non technical teams],
+    ),
+    tags: ("Online learning", "Precision Agriculture")
 )

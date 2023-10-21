@@ -1,15 +1,15 @@
 // NOTICE: Copy this file to your root folder.
 
 /* Personal Information */
-#let firstName = "John"
+#let firstName = "Marc"
 
-#let lastName = "Doe"
+#let lastName = "Desgroseilliers"
 
 #let personalInfo = (
-  github: "mintyfrankie",
-  phone: "+33 6 12 34 56 78",
-  email: "john.doe@me.org",
-  linkedin: "johndoe",
+  github: "mdgrs",
+  phone: "+41 78 896 1201",
+  email: "m.dgrs@pm.me",
+  linkedin: "marc-desgroseilliers",
   //gitlab: "mintyfrankie",
   //homepage: "jd.me.org",
   //orcid: "0000-0000-0000-0000",
@@ -21,8 +21,8 @@
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "": [Experienced Data Analyst looking for a full time job starting from now],
-  "en": [Experienced Data Analyst looking for a full time job starting from now],
+  "": [Data scientist with a strong background in statistics and numerical computing. Keen to apply machine learning methods to real world problems],
+  "en": [Data scientist with a strong background in statistics and numerical computing. Keen to apply machine learning methods to real world problems.],
   "fr": [Analyste de données expérimenté à la recherche d'un emploi à temps plein disponible dès maintenant],
   "zh": [具有丰富经验的数据分析师，随时可入职]
 )
@@ -51,10 +51,10 @@
 /* Layout Setting */
 #let awesomeColor = "skyblue" // Optional: skyblue, red, nephritis, concrete, darknight
 
-#let profilePhoto = "../src/avatar.png" // Leave blank if profil photo is not needed
+#let profilePhoto = "../src/profile_pic.jpeg" // Leave blank if profil photo is not needed
 
 #let varLanguage = "" // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
 
 #let varEntrySocietyFirst = false // Decide if you want to put your company in bold or your position in bold
 
-#let varDisplayLogo = true // Decide if you want to display organisation logo or not
+#let varDisplayLogo = false // Decide if you want to display organisation logo or not
